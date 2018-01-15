@@ -52,7 +52,7 @@ void main()
 	FilledRhombusStack.Pop();
 	FilledRhombusStack.Print(hdc);*/
 
-	/*OpenStack <CombiRhombus> CombiRhombusStack(10);
+	OpenStack <CombiRhombus> CombiRhombusStack(10);
 	cr.MoveXCombiRhombus(110);
 	CombiRhombusStack.Push(cr);
 	cr.MoveXCombiRhombus(110);
@@ -62,13 +62,13 @@ void main()
 	CombiRhombusStack.Print(hdc);
 	cin.get();
 	CombiRhombusStack.Pop();
-	CombiRhombusStack.Print(hdc);*/
+	CombiRhombusStack.Print(hdc);
 
-	OpenStack <int> s(10);
+	/*OpenStack <int> s(10);
 	s.Push(1);
 	s.Push(2);
 	s.Push(3);
-	s.Print();
+	s.Print();*/
 	
 	cin.get();
 	// освобождаем контекст отображения
