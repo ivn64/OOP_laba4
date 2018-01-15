@@ -1,7 +1,5 @@
 #pragma once
 
-#include <string>
-
 using namespace std;
 
 template <class T> 
@@ -9,7 +7,6 @@ class OpenStack
 {
 	T *shapeStack;
 	int length, top; // длина и текущий элемент
-
 public:
 	OpenStack(int);
 	~OpenStack();
@@ -17,7 +14,6 @@ public:
 	void Pop();
 	void Print(HDC);
 	void Print();
-	//void Print(string);
 };
 
 template <class T>
